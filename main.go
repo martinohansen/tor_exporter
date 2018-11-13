@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"os"
 
+	"github.com/martinohansen/tor_exporter/collector"
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/log"
-	"github.com/squeed/prometheus-tor/collector"
 	"github.com/yawning/bulb"
 )
 
