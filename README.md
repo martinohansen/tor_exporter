@@ -1,5 +1,5 @@
 # tor_exporter
-Small Prometheus exporter for the tor daemon written in Go. Forked from squeed/prometheus-tor.
+Small Prometheus exporter for the tor daemon written in Go. Forked from [squeed/prometheus-tor](https://github.com/squeed/prometheus-tor).
 
 ## Usage
 
