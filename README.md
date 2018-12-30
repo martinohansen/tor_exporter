@@ -1,11 +1,11 @@
 # tor_exporter
-Small Prometheus exporter for the tor daemon.
+Small Prometheus exporter for the tor daemon written in Go. Forked from squeed/prometheus-tor.
 
 ## Usage
 
 `tor_exporter (--tor.control-socket /var/run/tor/control | --tor.control-port localhost:9051)`
 
-The default port for serving the metrics is `9105`. This can be changed with flag: `--web.listen-address`.
+The default port for serving the metrics is `9105`, can be changed with flag: `--web.listen-address`.
 
 ### Docker
 
